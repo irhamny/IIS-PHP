@@ -4,10 +4,10 @@ FROM nanoserver/iis
 
 MAINTAINER nanoserver.es@gmail.com
 
-ADD http://windows.php.net/downloads/releases/php-7.0.16-nts-Win32-VC14-x64.zip php.zip
-ADD https://nanoserver.es/nanofiles/vcruntime140.dll C:\\Windows\\System32\\vcruntime140.dll
-ADD https://nanoserver.es/nanofiles/iisfcgi.dll C:\\Windows\\System32\\inetsrv\\iisfcgi.dll
-ADD https://nanoserver.es/nanofiles/info.dll C:\\inetpub\\wwwroot\\info.php
+ADD https://windows.php.net/downloads/releases/php-7.2.7-nts-Win32-VC15-x64.zip
+#ADD https://nanoserver.es/nanofiles/vcruntime140.dll C:\\Windows\\System32\\vcruntime140.dll
+#ADD https://nanoserver.es/nanofiles/iisfcgi.dll C:\\Windows\\System32\\inetsrv\\iisfcgi.dll
+#ADD https://nanoserver.es/nanofiles/info.dll C:\\inetpub\\wwwroot\\info.php
 
 ENV PHP C:\\php
 
