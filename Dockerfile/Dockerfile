@@ -2,7 +2,7 @@
 
 FROM nanoserver/iis
 
-MAINTAINER nanoserver.es@gmail.com
+MAINTAINER irhamny@gmail.com
 
 ADD https://windows.php.net/downloads/releases/php-7.2.7-nts-Win32-VC15-x64.zip php.zip
 #ADD https://jbit.es/files/vcruntime140.dll C:\\Windows\\System32\\vcruntime140.dll
